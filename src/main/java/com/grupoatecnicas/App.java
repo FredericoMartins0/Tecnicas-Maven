@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 public class App {
-    Carro car;
     public static void main(String args[]){
-        System.out.printf("Aqui o codigo começa");
+        Passageiro p = new Passageiro("85820571053","Demóstenes","123456789",FormaPagto.DINHEIRO,10);
+        System.out.println(p);
     }
 }

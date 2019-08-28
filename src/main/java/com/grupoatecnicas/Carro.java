@@ -7,7 +7,7 @@ public class Carro {
     private String cor;
     private CategoriaVeiculo cat; 
 
-    Carro(String placa,String marca,String cor,CategoriaVeiculo cat){
+    public Carro(String placa,String marca,String cor,CategoriaVeiculo cat){
         this.placa = placa;
         this.marca = marca;
         this.cor   = cor;
